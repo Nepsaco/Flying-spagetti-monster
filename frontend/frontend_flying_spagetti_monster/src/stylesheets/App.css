@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-header{
-  width: 100%
+body{
+  font-family: 'Roboto', sans-serif;
+  /* background-color: #fbf7f5; */
+ /* background-image: url('https://files.slack.com/files-pri/T02MD9XTF-FPZ0PFAKB/688817-fsm-wallpaper-1920x1080-retina.jpg'); */
+ 
+ background-color: rgba(50, 33%, 25%, 0.75);
+  background-size: cover;
+ 
 }
+
+h1{
+  width: 100%;
+  font-family: 'Caveat', cursive;
+}
+
+.nav{
+  font-family: 'Caveat', cursive;
+}
+
+

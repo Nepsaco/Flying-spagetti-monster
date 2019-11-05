@@ -21,12 +21,22 @@ class MonsterContainer extends Component {
             .then(monsters => this.setState({ monsters }))       
     }
 
+    displayMonsters = () => this.state.monsters.map(monster => {
+        return(
+                <MonsterCard
+                    image = {monster.img} 
+                    quote = {monster.quote}
+                    id = {monster.id}
+                />
+            )
+    })
  
 
     render(){
         return(
             <div className="monster-container">
-                <MonsterCard monsters={this.state.monsters}/>
+                <h1>The Lord of Illumination</h1>
+                {this.displayMonsters()}
             </div>
         )
     }

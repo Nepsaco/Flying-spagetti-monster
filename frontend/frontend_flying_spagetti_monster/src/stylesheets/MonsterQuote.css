@@ -1,0 +1,7 @@
+.show-quote{
+    display: flex;
+    margin: 1rem;
+    align-items: center ;
+    font-size: 20pt;
+}
+

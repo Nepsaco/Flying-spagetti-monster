@@ -55,10 +55,12 @@ class AboutContainer extends Component {
 
     render(){
         return(
-            <div>
+            <div className="about-container">
                 <h1>About the True Lord of Illumination</h1>
                 <GospelSearch searchTerm={this.state.searchTerm} updateSearchTerm = {this.updateSearchTerm} />
                 <CommandmentContainer commandments={this.filteredCommandments()}/>
+                <link href="https://vimeo.com/31543194" />
+                
 
             </div>
         )

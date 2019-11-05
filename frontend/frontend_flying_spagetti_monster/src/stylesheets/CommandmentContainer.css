@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+li{
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem;
+  font-size: 18pt;
+  font-weight: 550;
+  color: black;
+  text-shadow: 0px 0px 6px white;
+}
+
+ol {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+

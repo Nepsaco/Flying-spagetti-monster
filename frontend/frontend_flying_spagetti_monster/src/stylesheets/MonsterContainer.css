@@ -1,0 +1,17 @@
+.monster-container {
+    display: flex;
+    flex-flow: wrap;
+    margin: 1rem;
+
+    /* animation: slide-up 5s; */
+    /* overflow-y: hidden; */
+    /* transition-property: all; */
+    /* transition-duration: .5s; */
+    /* transition-timing-function: cubic-bezier(0,1,.5,1); */
+    /* background-image: url('https://files.slack.com/files-pri/T02MD9XTF-FPZ0PFAKB/688817-fsm-wallpaper-1920x1080-retina.jpg'); */
+    justify-content: center;
+}
+
+.monster-container h1 {
+    width: 100%;
+}

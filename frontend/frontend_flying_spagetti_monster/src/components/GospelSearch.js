@@ -1,5 +1,8 @@
 import React from 'react'
 
+import './../stylesheets/GospelSearch.css'
+
+
 const GospelSearch = (props) => {
 
     console.log(props.searchTerm)

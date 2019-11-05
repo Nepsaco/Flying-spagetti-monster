@@ -22,7 +22,6 @@ class Nav extends Component {
                     <Link className="link" to="/">Home</Link>
                     <Link className="link" to="/about">About</Link>
                 </nav>
-                <h1>The Lord of Illumination</h1>
                 <Switch>
                     <Route 
                         exact path="/" 

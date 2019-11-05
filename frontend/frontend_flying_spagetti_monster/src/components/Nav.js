@@ -11,6 +11,7 @@ import './../stylesheets/Nav.css'
 
 
 import AppNotFound from './AppNotFound'
+import SpaghettiContainer from './SpaghettiContainer';
 
 class Nav extends Component {
     render(){
@@ -20,9 +21,11 @@ class Nav extends Component {
                     <Link className="link" to="/">Home</Link>
                     <Link className="link" to="/">About</Link>
                 </nav>
+                <h1>The Lord of Illumination</h1>
                 <Switch>
                     <Route 
                         exact path="/" 
+                        component={SpaghettiContainer}
                         // render={(props)=> <GodContainer {...props} 
                         // cards={this.state.cards}/>}
                     />

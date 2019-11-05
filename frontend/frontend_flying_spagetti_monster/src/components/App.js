@@ -9,7 +9,7 @@ const App =() => {
     <div className="App">
       <header>
         <Nav />
-        <h1>The Lord of Illumination</h1>
+        
       </header>
     </div>
   );

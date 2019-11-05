@@ -18,4 +18,4 @@ Monster.create(img: "https://www.venganza.org/images/spreadword/GOD_th.jpg", quo
 Monster.create(img: "https://www.venganza.org/wp-content/uploads/2006/08/karlas_painting_sm.jpg", quote: "We find, counter-intuitively, that a small population correlates with shorter humans, and a larger population correlates with taller humans.2 This only makes sense in light of the FSM theory of gravity. With more people on earth today, there are fewer Noodly Appendages to go around, so we each receive less touching—pushing down toward the earth—and thus, with less force downward, we’re taller.")
 Monster.create(img: "https://www.venganza.org/images/wordpress/light/fsmlightthumbnail.jpg", quote: "With Him, All Things are Pasta-Bowl.")
 Monster.create(img: "https://www.venganza.org/images/wallpapers/th_WWFSMD2.jpg", quote: "Go ahead. Try us for thirty days. If you don't like us, your old religion will most likely take you back.")
-Monster.create(img: "https://www.venganza.org/wp-content/uploads/2006/08/Steven_Klingers_Propaganda_sm.jpg", quote:)
+

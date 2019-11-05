@@ -1,5 +1,8 @@
 import React from 'react'
 
+import './../stylesheets/MonsterCard.css'
+
+
 const MonsterCard = (props) => {
     console.log("monsterCaard props",props.monsters)
 

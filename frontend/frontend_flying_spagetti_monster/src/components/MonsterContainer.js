@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './../stylesheets/SpaghettiContainer.css'
+import './../stylesheets/MonsterContainer.css'
 
 import MonsterCard from './MonsterCard'
 

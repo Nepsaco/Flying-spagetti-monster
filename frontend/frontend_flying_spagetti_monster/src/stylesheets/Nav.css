@@ -4,14 +4,14 @@
     padding-right: 1rem;
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/90/Touched_by_His_Noodly_Appendage_HD.jpg');
     background-size: cover;
-    height: 6rem;
+    height: 7rem;
 }
 
 .link {
     margin: 1rem;
     text-decoration: none;
     text-transform: uppercase;
-    text-shadow: -1px 1px 5px hsl(0, 0%, 80%);
+    text-shadow: -1px 1px 5px hsl(0, 0%, 90%);
     color: hsl(0, 2%, 20%);
     display: flex;
     align-items: center;
@@ -21,6 +21,6 @@
 
 
 .link:hover{
-    cursor: pointer;
+    cursor: f67b;
 }
 

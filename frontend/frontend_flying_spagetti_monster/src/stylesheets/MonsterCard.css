@@ -1,0 +1,52 @@
+.monster-container {
+    display: flex;
+    flex-flow: wrap;
+    margin: 1rem;
+
+    animation: slide-up 5s;
+    /* overflow-y: hidden; */
+    /* transition-property: all; */
+    /* transition-duration: .5s; */
+    /* transition-timing-function: cubic-bezier(0,1,.5,1); */
+}
+
+@keyframes slide-up {
+ 0% {
+     transform:scaleY(0);
+  }
+  100% {
+     transform:scaleY(1);
+  }
+}
+
+.monster-card {
+    display: flex;
+    flex: 45%;
+    height:30em;
+    width: 10em;
+    box-shadow: 4px 4px 9px hsl(0, 0%, 50%);
+    margin: 1rem;
+}
+
+.monster-card p {
+    width: 50%;
+    margin: 1rem;
+}
+
+
+.monster-card img {
+    display: inline-block;
+    width: 50%;
+    margin: 1rem;
+}
+
+.expandable {
+    transition: all .5s ease-in-out;
+    transform-origin: left top;
+    transform: scaleY(0);
+}
+
+.expandable:target {
+    transform: scaleY(1)
+}
+

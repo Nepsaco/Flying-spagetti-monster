@@ -11,7 +11,7 @@ const GospelSearch = (props) => {
             <form>
                 <input 
                     type="text"
-                    placeholder="Search the gospel"
+                    placeholder="Search the commandments"
                     value = {props.searchTerm}
                     onChange = {props.updateSearchTerm}
                 />

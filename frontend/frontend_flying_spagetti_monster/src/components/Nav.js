@@ -6,15 +6,31 @@ import {
     Link
   } from 'react-router-dom';
 
-import './../stylesheets/App.css'
+
+import './../stylesheets/Nav.css'
+
+
+import AppNotFound from './AppNotFound'
 
 class Nav extends Component {
     render(){
         return(
             <Router>
                 <nav className="nav">
-                    <Link />
+                    <Link className="link" to="/">Home</Link>
+                    <Link className="link" to="/">About</Link>
                 </nav>
+                <Switch>
+                    <Route 
+                        exact path="/" 
+                        // render={(props)=> <GodContainer {...props} 
+                        // cards={this.state.cards}/>}
+                    />
+                    <Route
+                        path ="/about"
+                    />
+                    <Route component={AppNotFound} />
+                </Switch>
             </Router>
             
         )

@@ -7,7 +7,10 @@ import Nav from './Nav'
 const App =() => {
   return (
     <div className="App">
-      <Nav />
+      <header>
+        <Nav />
+        <h1>The Lord of Illumination</h1>
+      </header>
     </div>
   );
 }

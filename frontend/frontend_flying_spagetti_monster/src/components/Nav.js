@@ -10,7 +10,7 @@ import {
 import './../stylesheets/Nav.css'
 
 import AppNotFound from './AppNotFound'
-import SpaghettiContainer from './SpaghettiContainer';
+import MonsterContainer from './MonsterContainer';
 import AboutContainer from './AboutContainer';
 
 class Nav extends Component {
@@ -26,7 +26,7 @@ class Nav extends Component {
                 <Switch>
                     <Route 
                         exact path="/" 
-                        component={SpaghettiContainer}
+                        component={MonsterContainer}
                     />
                     <Route
                         path ="/about"

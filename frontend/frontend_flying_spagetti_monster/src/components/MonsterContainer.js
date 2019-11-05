@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 
 import './../stylesheets/SpaghettiContainer.css'
 
+import MonsterCard from './MonsterCard'
 
-class SpaghettiContainer extends Component {
+
+class MonsterContainer extends Component {
 
     state ={
         monsters: []
@@ -19,13 +21,15 @@ class SpaghettiContainer extends Component {
             .then(monsters => this.setState({ monsters }))       
     }
 
+ 
+
     render(){
         return(
-            <div>
-                <h2>in Container</h2>
+            <div className="monster-container">
+                <MonsterCard monsters={this.state.monsters}/>
             </div>
         )
     }
 }
 
-export default SpaghettiContainer
+export default MonsterContainer
